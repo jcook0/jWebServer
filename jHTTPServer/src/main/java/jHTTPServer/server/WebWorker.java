@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
-public class Worker implements Runnable {
+public class WebWorker implements Runnable {
 
 	private static final String CONNECTION_HEADER = "Connection";
 
